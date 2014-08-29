@@ -3,16 +3,23 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leango/lepass-settings"
+    "url": "https://github.com/xdfcn/lepass-settings"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leango/lepass-settings/issues"
+    "url": "https://github.com/xdfcn/lepass-settings/issues"
   },
-  "homepage": "https://github.com/leango/lepass-settings",
-  "dependencies": {}
+  "homepage": "https://github.com/xdfcn/lepass-settings",
+  "dependencies": {
+    "boot-settings": "0.0.3",
+    "extend": "^1.3.0",
+    "log4js": "^0.6.17",
+    "require-dir": "^0.1.0"
+  }
 }
