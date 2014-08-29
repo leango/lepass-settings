@@ -33,7 +33,8 @@ settings.lockit.db.url = settings.passlock_db.url;
 settings.passlock = {
   db: settings.passlock_db,
   lockit: settings.lockit,
-  lockitRest: settings.lockit
+  lockitRest: settings.lockit,
+  oauth: settings.oauth
 };
 
 module.exports = settings;
